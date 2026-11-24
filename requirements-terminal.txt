@@ -1,0 +1,12 @@
+# Only for:  python jarvis.py --terminal   (voice inside the terminal)
+# The visual interface does not need any of these.
+# Install with:  pip install -r requirements-terminal.txt
+#
+# System packages that may be needed first:
+#   Linux : sudo apt install portaudio19-dev espeak-ng
+#   macOS : brew install portaudio
+pyttsx3
+SpeechRecognition
+# PyAudio is the one that often fails (especially on very new Python versions).
+# If it does, delete this line: terminal text mode still works without a microphone.
+PyAudio

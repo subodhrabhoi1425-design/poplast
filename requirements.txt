@@ -1,0 +1,7 @@
+# Jarvis (visual interface) needs NO pip packages on any system.
+# Speech input and output run inside Chrome or Edge, so PyAudio is NOT required.
+#
+# Optional, Windows only (Jarvis works without it):
+# AppOpener
+#
+# For the terminal version with voice (python jarvis.py --terminal) use requirements-terminal.txt
